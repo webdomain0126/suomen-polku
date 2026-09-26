@@ -1,0 +1,421 @@
+{
+  "navigation": {
+    "home": "Etusivu",
+    "course": "Kurssi",
+    "resources": "Oppimateriaalit",
+    "about": "Tietoa meistä",
+    "contact": "Yhteystiedot",
+    "login": "Kirjaudu",
+    "register": "Rekisteröidy"
+  },
+  "home": {
+    "badge": "10 kuukauden ohjelma · live-opetusta Zoomissa",
+    "title": "Opi suomea.",
+    "subtitle": "Ymmärrä. Puhu. Lue. Kirjoita.",
+    "description": "Strukturoitu kymmenen kuukauden suomen kielen kurssi, jossa on opettajajohtoiset live-tunnit ja käytännönläheinen opetusmateriaali.",
+    "ctaCourse": "Tutustu kurssiin",
+    "ctaRegister": "Rekisteröidy nyt"
+  },
+  "courseOverview": {
+    "heading": "Kurssi lyhyesti",
+    "duration": "10 kuukautta",
+    "durationLabel": "Strukturoitu ohjelma",
+    "frequency": "2 kertaa / viikko",
+    "frequencyLabel": "Live-tunteja",
+    "length": "2 tuntia / tunti",
+    "lengthLabel": "4 tuntia viikossa",
+    "price": "35 € / kuukausi",
+    "priceLabel": "Kuukausihinta",
+    "platform": "Zoom",
+    "platformLabel": "Live-tunnit"
+  },
+  "journey": {
+    "kicker": "Polku",
+    "heading": "Oppimispolkusi",
+    "description": "Yksi selkeä reitti aakkosista sujuvaan keskusteluun — kymmenen vaihetta, kuukausi kerrallaan.",
+    "steps": {
+      "s1": "Suomen perusteet",
+      "s2": "Verbit ja arkilauseet",
+      "s3": "K-P-T ja substantiivit",
+      "s4": "Sijamuodot I",
+      "s5": "Sijamuodot II",
+      "s6": "Objektit, pronominit ja adjektiivit",
+      "s7": "Menneet aikamuodot ja muut verbimuodot",
+      "s8": "Lauserakenne",
+      "s9": "Arjen suomi",
+      "s10": "Itsenäinen suomen taito"
+    }
+  },
+  "features": {
+    "kicker": "Opetussuunnitelma",
+    "heading": "Mitä opit",
+    "foundations": { "title": "Suomen perusteet", "items": "Aakkoset, vokaalit, konsonantit, ääntäminen, tavutus" },
+    "grammar": { "title": "Kielioppi", "items": "Persoonapronominit, olla, omistusmuodot, sijamuodot, verbityypit" },
+    "communication": { "title": "Viestintä", "items": "Tervehdykset, esittäytyminen, kysymykset, arkikeskustelut" },
+    "practical": { "title": "Käytännön suomi", "items": "Työelämän suomi, arkitilanteet, lukeminen, kirjoittaminen, puhuminen" }
+  },
+  "news": {
+    "kicker": "Ajankohtaista",
+    "heading": "Uusimmat kurssitiedot",
+    "announcement": { "tag": "Tiedote", "title": "Uusi kurssitieto", "desc": "Seuraava aloitusryhmä on nyt avoinna ilmoittautumisille." },
+    "liveClass": { "tag": "Live-tunti", "title": "Tuleva Zoom-tunti", "desc": "Seuraava live-oppitunti järjestetään pian — liity mukaan." },
+    "material": { "tag": "Materiaali", "title": "Uutta opetusmateriaalia", "desc": "Uusi harjoituspaketti on lisätty oppimateriaaleihin." },
+    "practice": { "tag": "Harjoitus", "title": "Uusi harjoitus saatavilla", "desc": "Testaa osaamistasi uusimmalla harjoitustehtävällä." }
+  },
+  "resourcesTeaser": {
+    "kicker": "Opiskelukirjasto",
+    "heading": "Kurssimateriaalit",
+    "description": "Kielioppi, sanasto, harjoitukset, diat ja PDF:t — järjestettynä aiheittain.",
+    "chips": "Kielioppi,Sanasto,Harjoitukset,Luentodiat,PDF:t",
+    "cta": "Selaa materiaaleja"
+  },
+  "instructor": {
+    "kicker": "Tutustu mentoriin",
+    "heading": "Rafiqul Hyder",
+    "role": "Suomen kielen opettaja",
+    "bio": "Jokainen kurssin oppitunti, dia ja PDF on rakennettu alusta asti — opiskelijoiden todellisten kysymysten pohjalta. Selitykset kulkevat suomen, englannin ja bengalin välillä, jotta kieliopin logiikka ei jää arvoitukseksi.",
+    "quote": "\"Suomen kielioppia ei tarvitse arvata — jokaiselle säännölle on syy, ja se kannattaa selittää auki.\"",
+    "quoteAttribution": "— Rafiqul Hyder",
+    "supportHeading": "Elävä mentorituki",
+    "supportPoints": "Kysymykset ja vastaukset,Keskustelu,Kielioppiapu,Ääntämisapu,Puheharjoittelu",
+    "cta": "Lue lisää"
+  },
+  "why": {
+    "kicker": "Miksi tämä kurssi",
+    "heading": "Rakennettu oikeasti puhumaan oppimiseen",
+    "points": "Strukturoitu kymmenen kuukauden opetussuunnitelma,Live-tunnit Zoomissa kahdesti viikossa,Opettajan itse luomat materiaalit,Selitykset englanniksi ja bengaliksi,Käytännön suomi arkeen ja työelämään,Kielioppi selitetään selkeästi,Ohjattua harjoittelua joka viikko,Valmistautuminen kielikokeisiin"
+  },
+  "pricing": {
+    "kicker": "Hinnoittelu",
+    "heading": "Valitse itsellesi sopiva tapa opiskella",
+    "liveMonthly": { "title": "Live, kuukausittain", "price": "35 € / kk", "features": "2 live-tuntia / viikko,2 tuntia / tunti,Kurssimateriaalit,Harjoitukset,Opiskelijan oma näkymä", "cta": "Aloita opiskelu" },
+    "lifetime": { "title": "Elinikäinen video", "price": "100 € kertamaksu", "features": "Tallennetut oppitunnit,Pysyvä pääsy materiaaleihin,Kurssimateriaalit,Itsenäinen opiskelutahti,Ei sisällä live-tunteja", "cta": "Hanki elinikäinen pääsy" },
+    "fullLive": { "title": "10 kuukauden live-kurssi", "price": "350 € yhteensä", "features": "Koko 10 kuukauden opetussuunnitelma,Live-tunnit,Kurssimateriaalit,Harjoitukset,Opiskelijan oma näkymä", "cta": "Liity koko kurssille" }
+  },
+  "finalCta": {
+    "heading": "Valmis aloittamaan suomen opiskelun?",
+    "description": "Rakenna suomen kielen taitosi askel askeleelta strukturoidun ohjelman avulla.",
+    "cta": "Rekisteröidy nyt"
+  },
+  "coursePage": {
+    "hero": {
+      "kicker": "Suomen kielen kurssi",
+      "heading": "10 kuukauden strukturoitu suomen kurssi",
+      "description": "Kaksi live-tuntia viikossa, kaksi tuntia kerrallaan — yhteensä neljä tuntia viikossa. Kurssi sopii sinulle, joka haluat oppia suomea järjestelmällisesti alusta alkaen, arkikäyttöön, työhön tai opiskeluun.",
+      "ctaPrimary": "Rekisteröidy nyt",
+      "ctaSecondary": "Katso opetussuunnitelma"
+    },
+    "howItWorks": {
+      "kicker": "Näin kurssi toimii",
+      "heading": "Selkeä, ohjattu oppimispolku",
+      "items": "Strukturoitu 10 kuukauden eteneminen,Live-tunnit Zoomissa,Opettajan itse luomat materiaalit,Suomenkieliset esimerkit,Selitykset bengaliksi,Ohjattua harjoittelua,Harjoitukset ja tehtävät,Tietokilpailut,Edistymisen seuranta myöhemmin opiskelija-alustalla,Elävä mentorituki"
+    },
+    "curriculum": {
+      "kicker": "Opetussuunnitelma",
+      "heading": "Koko 10 kuukauden kurssi",
+      "description": "Jokainen kuukausi rakentuu edellisen päälle — aakkosista itsenäiseen suomen käyttöön.",
+      "months": {
+        "m1": { "title": "Suomen perusteet", "desc": "Aakkoset, ääntäminen ja ensimmäiset lauseet.", "topics": "Aakkoset,Vokaalit ja konsonantit,Pitkät ja lyhyet äänteet,Tavutus ja paino,Persoonapronominit,Olla-verbi,Peruslauseet" },
+        "m2": { "title": "Verbit ja arkilauseet", "desc": "Preesens, verbityypit ja arjen sanasto.", "topics": "Verbivartalo,Persoonapäätteet,Preesens,Myönteiset ja kielteiset lauseet,Verbityypit 1–6,Infinitiivi,Tervehdykset,Perhe ja työ" },
+        "m3": { "title": "K-P-T ja substantiivit", "desc": "Astevaihtelu ja substantiivien perusmuodot.", "topics": "K-P-T-astevaihtelu,Vahva ja heikko aste,Substantiivit,Yksikkö ja monikko,Sanavartalot,Poikkeukset" },
+        "m4": { "title": "Sijamuodot I", "desc": "Ensimmäiset seitsemän sijamuotoa ja niiden käyttö.", "topics": "Nominatiivi,Genetiivi,Akkusatiivi,Partitiivi,Inessiivi,Elatiivi,Illatiivi,Missä? Mistä? Mihin?" },
+        "m5": { "title": "Sijamuodot II", "desc": "Loput sijamuodot ja niiden vertailu.", "topics": "Adessiivi,Ablatiivi,Allatiivi,Essiivi,Translatiivi,Abessiivi,Komitatiivi,Sijamuotojen vertailu" },
+        "m6": { "title": "Objektit, pronominit ja adjektiivit", "desc": "Objektit, pronominit ja adjektiivien taivutus.", "topics": "Totaaliobjekti,Partitiiviobjekti,Objekti kielteisessä lauseessa,Persoonapronominien sijamuodot,Demonstratiivipronominit,Kuka / mikä,Adjektiivi + substantiivi,Komparatiivi ja superlatiivi" },
+        "m7": { "title": "Menneet aikamuodot ja muut verbimuodot", "desc": "Menneet aikamuodot, konditionaali ja imperatiivi.", "topics": "Imperfekti,Perfekti,Pluskvamperfekti,Konditionaali (-isi-),Kielteinen konditionaali,Imperatiivi,Kielteinen käsky" },
+        "m8": { "title": "Lauserakenne", "desc": "Lauserakenne, sanajärjestys ja sivulauseet.", "topics": "Sanajärjestys,Kysymyslauseet,Kielteiset lauseet,että / koska / jos,kun / vaikka,Relatiivilauseet,Pidemmät lauseet" },
+        "m9": { "title": "Arjen suomi", "desc": "Käytännön suomea arkeen — ja puhekielen muodot.", "topics": "Kaupassa,Ravintolassa,Liikenteessä,Lääkärissä,Työpaikalla,Asuminen,Viranomaisasiat,Puhekieli: mä / sä / se / ne" },
+        "m10": { "title": "Itsenäinen suomen taito", "desc": "Kokonaiskertaus ja itsenäinen suomen käyttö.", "topics": "Kielioppikertaus,Puheharjoitukset,Arkikeskustelut,Viestien ja lomakkeiden kirjoittaminen,Sähköpostit,Lukeminen,Kuunteleminen,Loppuharjoitukset" }
+      }
+    },
+    "learningMethod": {
+      "kicker": "Opetusmenetelmä",
+      "heading": "Suomi pysyy suomena — selitys on bengaliksi",
+      "description": "Suomenkieliset esimerkit pysyvät aina suomeksi. Vaikea kielioppi selitetään ymmärrettävästi bengaliksi, ja englantia käytetään tarvittaessa vertailun tueksi.",
+      "example": {
+        "finnishLabel": "Suomi",
+        "finnish": "Minä olen opiskelija.",
+        "banglaLabel": "বাংলা",
+        "bangla": "আমি একজন শিক্ষার্থী।",
+        "englishLabel": "English",
+        "english": "I am a student."
+      }
+    },
+    "whatYouGet": {
+      "kicker": "Kurssiin sisältyy",
+      "heading": "Mitä kurssi sisältää",
+      "items": "Live-tunnit Zoomissa,Opettajan itse luomat materiaalit,Kielioppiselitykset,Selitykset bengaliksi,Suomenkieliset esimerkit,Sanasto,Harjoitukset,Ohjattu harjoittelu,Tietokilpailut,Luentodiat,PDF-materiaalit,Videoita soveltuvin osin,Edistymisen seuranta,Elävä mentorituki"
+    },
+    "plans": {
+      "kicker": "Kurssipaketit",
+      "heading": "Valitse itsellesi sopiva tapa opiskella",
+      "liveMonthly": { "title": "Live, kuukausittain", "price": "35 € / kk", "features": "2 live-tuntia / viikko,2 tuntia / tunti,4 tuntia viikossa,Kurssimateriaalit,Harjoitukset,Elävä mentorituki", "cta": "Aloita opiskelu" },
+      "lifetime": { "title": "Elinikäinen video", "price": "100 € kertamaksu", "features": "Tallennetut oppitunnit,Pysyvä pääsy materiaaleihin,Kurssimateriaalit,Itsenäinen opiskelutahti,Ei sisällä live-tunteja", "cta": "Hanki elinikäinen pääsy" },
+      "fullLive": { "title": "10 kuukauden live-kurssi", "price": "350 € yhteensä", "features": "Koko 10 kuukauden opetussuunnitelma,Live-tunnit,Kurssimateriaalit,Harjoitukset,Elävä mentorituki", "cta": "Liity koko kurssille" }
+    },
+    "finalCta": {
+      "heading": "Valmis aloittamaan?",
+      "description": "Liity kurssille ja aloita suomen oppiminen jäsennellysti, alusta alkaen.",
+      "ctaRegister": "Rekisteröidy nyt",
+      "ctaSecondary": "Selaa materiaaleja"
+    }
+  },
+  "resourcesPage": {
+    "hero": {
+      "kicker": "Oppimateriaalit",
+      "heading": "Suomen kielen oppimateriaalit",
+      "description": "Opiskele suomea jäsenneltyjen kielioppiselitysten, sanaston, ääntämisharjoitusten, tehtävien, luentodiojen, PDF-materiaalien ja videoiden avulla.",
+      "cta": "Tutustu kurssiin"
+    },
+    "categories": {
+      "kicker": "Materiaalityypit",
+      "heading": "Mitä kurssiin sisältyy",
+      "cta": "Sisältyy kurssiin",
+      "grammar": { "title": "Kielioppi", "desc": "Suomen kielioppi selitettynä askel askeleelta. Vaikeat asiat selitetään selkeästi suomenkielisten esimerkkien ja bengalinkielisten selitysten avulla." },
+      "vocabulary": { "title": "Sanasto", "desc": "Hyödyllisiä suomen sanoja ja ilmauksia, järjestettynä käytännön aihepiirien mukaan." },
+      "pronunciation": { "title": "Ääntäminen", "desc": "Suomen äänteet, pitkät ja lyhyet äänteet, tavutus ja puheharjoittelu." },
+      "lectureSlides": { "title": "Luentodiat", "desc": "Opettajan itse laatimat esitysmateriaalit, joita käytetään kurssin live-tunneilla." },
+      "pdfMaterials": { "title": "PDF-materiaalit", "desc": "Jäsennellyt oppimateriaalit ja viitedokumentit kurssin tueksi." },
+      "exercises": { "title": "Harjoitukset", "desc": "Käytännön harjoituksia, jotka vahvistavat suomen kielioppia ja sanastoa." },
+      "videoLessons": { "title": "Videot", "desc": "Videopohjaista oppimista niille, jotka haluavat kerrata materiaalia omaan tahtiin." }
+    },
+    "grammarPreview": {
+      "kicker": "Kielioppi lyhyesti",
+      "heading": "Kielioppialueet, joita kurssilla käydään läpi",
+      "description": "Tämä on lyhyt esikatselu — täydelliset oppitunnit löytyvät kurssin opiskelija-alustalta.",
+      "topics": "Aakkoset ja ääntäminen,Persoonapronominit,Olla-verbi,Verbityypit 1–6,Preesens,K-P-T-astevaihtelu,Infinitiivi ja verbimuodot,Substantiivit,Suomen sijamuodot,Adjektiivit,Pronominien sijamuodot,Omistusmuodot,Monikko,Kysymykset,Lauserakenne,Objektit,Kielto,Menneet aikamuodot,Tulevan ajan ilmaiseminen,Partisiipit,Passiivi,Konditionaali,Imperatiivi,Puhekieli,Numerot ja aika,Postpositiot ja prepositiot,Konjunktiot ja sidesanat,Relatiivilauseet,Vertailu,Edistynyt kielioppi"
+    },
+    "banglaApproach": {
+      "kicker": "Opetusmenetelmä",
+      "heading": "Suomi pysyy suomena — selitys on bengaliksi",
+      "description": "Suomenkieliset esimerkit pysyvät aina suomeksi. Vaikea kielioppi selitetään ymmärrettävästi bengaliksi, ja englantia käytetään tarvittaessa vertailun tueksi.",
+      "example": {
+        "finnishLabel": "Suomi",
+        "finnish": "Minä olen opiskelija.",
+        "banglaLabel": "বাংলা",
+        "bangla": "আমি একজন শিক্ষার্থী।",
+        "englishLabel": "English",
+        "english": "I am a student."
+      }
+    },
+    "learningFlow": {
+      "kicker": "Näin materiaaleja käytetään",
+      "heading": "Oppimisen kulku",
+      "description": "Materiaalit tukevat strukturoitua 10 kuukauden kurssia. Oppituntien suorittaminen, harjoitukset, tietokilpailut ja edistymisen seuranta yhdistetään myöhemmin opiskelija-alustaan.",
+      "steps": "Opi,Ymmärrä,Harjoittele,Kertaa,Testaa"
+    },
+    "courseConnection": {
+      "kicker": "Osana kurssia",
+      "heading": "Materiaalit seuraavat kurssin etenemistä",
+      "description": "Jokainen materiaali liittyy tiettyyn kurssin vaiheeseen, aakkosista itsenäiseen suomen käyttöön.",
+      "steps": "Suomen perusteet,Verbit,K-P-T,Sijamuodot,Objektit & pronominit & adjektiivit,Menneet verbimuodot,Lauserakenne,Arjen suomi,Itsenäinen suomi",
+      "cta": "Katso koko opetussuunnitelma"
+    },
+    "finalCta": {
+      "heading": "Valmis aloittamaan suomen opiskelun?",
+      "description": "Tutustu kurssiin tai rekisteröidy suoraan.",
+      "ctaRegister": "Rekisteröidy",
+      "ctaSecondary": "Katso kurssi"
+    }
+  },
+  "aboutPage": {
+    "mission": {
+      "kicker": "Tietoa meistä",
+      "heading": "Suomen Polku on suomen kielen oppimisalusta",
+      "paragraph": "Suomen Polku on suunniteltu auttamaan oppijoita rakentamaan käytännöllisiä suomen kielen taitoja askel askeleelta.",
+      "focusList": "Kieliopin ymmärtäminen,Hyödyllisen sanaston rakentaminen,Ääntämisen parantaminen,Luku- ja kirjoitustaidon kehittäminen,Kuuntelu- ja puhetaidon kehittäminen,Suomen käyttäminen arjen tilanteissa"
+    },
+    "teachingPhilosophy": {
+      "kicker": "Opetusfilosofia",
+      "heading": "Suomi pysyy suomena — selitys on bengaliksi",
+      "description": "Suomenkieliset esimerkit pysyvät aina suomeksi. Vaikea kielioppi selitetään ymmärrettävästi bengaliksi, ja englantia käytetään tarvittaessa vertailun tueksi.",
+      "example": {
+        "finnishLabel": "Suomi",
+        "finnish": "Minä olen opiskelija.",
+        "banglaLabel": "বাংলা",
+        "bangla": "আমি একজন শিক্ষার্থী।",
+        "englishLabel": "English",
+        "english": "I am a student."
+      }
+    },
+    "learningApproach": {
+      "kicker": "Oppimisen lähestymistapa",
+      "heading": "Näin opit vaiheittain",
+      "description": "Opiskelijat rakentavat osaamistaan vähitellen sen sijaan, että yrittäisivät opetella kaiken kerralla.",
+      "steps": "Opi,Ymmärrä,Harjoittele,Toista,Testaa"
+    },
+    "whyUs": {
+      "kicker": "Miksi Suomen Polku",
+      "heading": "Käytännöllisiä tavoitteita suomen oppimiseen",
+      "points": "Suomen kielellä kommunikointi,Suomen ymmärtäminen entistä varmemmin,Valmistautuminen arjen tilanteisiin,Työ- ja opiskelumahdollisuuksien parantaminen kielitaidon avulla,Itsenäisen suomen kielen perustan rakentaminen"
+    },
+    "finalCta": {
+      "heading": "Valmis aloittamaan suomen opiskelun?",
+      "description": "Tutustu kurssiin ja aloita oppimispolkusi.",
+      "ctaRegister": "Rekisteröidy",
+      "ctaSecondary": "Katso kurssi"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "kicker": "Ota yhteyttä",
+      "heading": "Ota yhteyttä",
+      "description": "Voit ottaa yhteyttä Suomen Polkuun, jos sinulla on kysyttävää kurssista, oppimateriaaleista tai rekisteröitymisestä."
+    },
+    "info": {
+      "heading": "Kurssi lyhyesti",
+      "items": "10 kuukauden kurssi,2 live-tuntia viikossa,Live-tunnit Zoomissa,Alkaen 35 € / kuukausi"
+    },
+    "form": {
+      "nameLabel": "Nimi",
+      "namePlaceholder": "Koko nimesi",
+      "emailLabel": "Sähköposti",
+      "emailPlaceholder": "sinun@sahkoposti.fi",
+      "messageLabel": "Viesti",
+      "messagePlaceholder": "Miten voimme auttaa?",
+      "nameRequired": "Nimi vaaditaan.",
+      "emailRequired": "Sähköposti vaaditaan.",
+      "emailInvalid": "Anna kelvollinen sähköpostiosoite.",
+      "messageRequired": "Viesti vaaditaan.",
+      "submit": "Lähetä viesti",
+      "demoNotice": "Tämä on esittelylomake — viestiä ei todellisuudessa lähetetty."
+    },
+    "faq": {
+      "kicker": "UKK",
+      "heading": "Usein kysytyt kysymykset",
+      "q1": { "q": "Kuinka pitkä kurssi on?", "a": "Kurssi kestää 10 kuukautta." },
+      "q2": { "q": "Kuinka monta live-tuntia viikossa on?", "a": "Kurssilla on kaksi live-tuntia viikossa." },
+      "q3": { "q": "Kuinka pitkä yksi tunti on?", "a": "Jokainen tunti kestää 2 tuntia, eli yhteensä 4 tuntia viikossa." },
+      "q4": { "q": "Millä alustalla live-tunnit pidetään?", "a": "Live-tunnit pidetään Zoomissa." },
+      "q5": { "q": "Millä kielillä opetus tapahtuu?", "a": "Suomi pysyy suomena. Selitykset annetaan pääasiassa bengaliksi, ja englantia käytetään tarvittaessa vertailun tueksi." },
+      "q6": { "q": "Mitä kurssi sisältää?", "a": "Kurssi etenee suomen perusteista kohti itsenäistä suomen käyttöä kymmenen kuukauden aikana: perusteet, verbit, K-P-T, sijamuodot, objektit, pronominit ja adjektiivit, menneet verbimuodot, lauserakenne, arjen suomi ja itsenäinen suomen taito." },
+      "q7": { "q": "Sopiiko kurssi aloittelijoille?", "a": "Kyllä. Kurssi alkaa suomen perusteista, mukaan lukien aakkoset ja ääntäminen." },
+      "q8": { "q": "Mitä hinnoitteluvaihtoehtoja on saatavilla?", "a": "Live, kuukausittain 35 € / kk, Elinikäinen video 100 € kertamaksu, sekä 10 kuukauden live-kurssi 350 € yhteensä." },
+      "q9": { "q": "Mitä Elinikäinen video -paketti sisältää?", "a": "Tallennetut oppitunnit, pysyvän pääsyn materiaaleihin ja itsenäisen opiskelutahdin — ilman live-tunteja." },
+      "q10": { "q": "Miten voin ottaa yhteyttä Suomen Polkuun?", "a": "Voit ottaa yhteyttä tällä sivulla olevan yhteydenottolomakkeen kautta." }
+    },
+    "teachingLanguage": {
+      "kicker": "Opetuskieli",
+      "heading": "Suomi pysyy suomena — selitys on bengaliksi",
+      "description": "Suomenkieliset esimerkit pysyvät aina suomeksi. Vaikea kielioppi selitetään ymmärrettävästi bengaliksi, ja englantia käytetään tarvittaessa vertailun tueksi.",
+      "example": {
+        "finnishLabel": "Suomi",
+        "finnish": "Minä olen opiskelija.",
+        "banglaLabel": "বাংলা",
+        "bangla": "আমি একজন শিক্ষার্থী।",
+        "englishLabel": "English",
+        "english": "I am a student."
+      }
+    }
+  },
+  "authPage": {
+    "login": {
+      "kicker": "Kirjaudu sisään",
+      "heading": "Tervetuloa takaisin",
+      "description": "Kirjaudu sisään jatkaaksesi suomen opiskelua.",
+      "emailLabel": "Sähköposti",
+      "emailPlaceholder": "sinun@sahkoposti.fi",
+      "passwordLabel": "Salasana",
+      "passwordPlaceholder": "Salasanasi",
+      "emailRequired": "Sähköposti vaaditaan.",
+      "emailInvalid": "Anna kelvollinen sähköpostiosoite.",
+      "passwordRequired": "Salasana vaaditaan.",
+      "invalidCredentials": "Sähköposti tai salasana on virheellinen.",
+      "serverError": "Jokin meni pieleen. Yritä hetken kuluttua uudelleen.",
+      "submit": "Kirjaudu",
+      "noAccount": "Eikö sinulla ole vielä tiliä?",
+      "registerLink": "Rekisteröidy",
+      "showPassword": "Näytä salasana",
+      "hidePassword": "Piilota salasana"
+    },
+    "register": {
+      "kicker": "Rekisteröidy",
+      "heading": "Luo tili",
+      "description": "Aloita suomen opiskelu luomalla oma tilisi.",
+      "nameLabel": "Nimi",
+      "namePlaceholder": "Koko nimesi",
+      "emailLabel": "Sähköposti",
+      "emailPlaceholder": "sinun@sahkoposti.fi",
+      "passwordLabel": "Salasana",
+      "passwordPlaceholder": "Luo salasana",
+      "passwordHint": "Vähintään 8 merkkiä.",
+      "confirmPasswordLabel": "Vahvista salasana",
+      "confirmPasswordPlaceholder": "Kirjoita salasana uudelleen",
+      "nameRequired": "Nimi vaaditaan.",
+      "emailRequired": "Sähköposti vaaditaan.",
+      "emailInvalid": "Anna kelvollinen sähköpostiosoite.",
+      "emailTaken": "Tällä sähköpostiosoitteella on jo tili.",
+      "passwordRequired": "Salasana vaaditaan.",
+      "passwordTooShort": "Salasanan tulee olla vähintään 8 merkkiä pitkä.",
+      "confirmRequired": "Vahvista salasanasi.",
+      "passwordMismatch": "Salasanat eivät täsmää.",
+      "serverError": "Jokin meni pieleen. Yritä hetken kuluttua uudelleen.",
+      "submit": "Luo tili",
+      "haveAccount": "Onko sinulla jo tili?",
+      "loginLink": "Kirjaudu",
+      "showPassword": "Näytä salasana",
+      "hidePassword": "Piilota salasana"
+    }
+  },
+  "monthPage": {
+    "kicker": "Kuukausi {month}",
+    "month1Description": "Suomen kielen perusta: aakkoset, ääntäminen, persoonapronominit ja ensimmäiset lauseet.",
+    "lessonsHeading": "Oppitunnit",
+    "lessonNumber": "Oppitunti {number}",
+    "statusCompleted": "Suoritettu ✓",
+    "statusNotStarted": "Ei aloitettu",
+    "backToDashboard": "Takaisin kojelautaan"
+  },
+  "studentPage": {
+    "welcome": "Tervetuloa, {name}!",
+    "navDashboard": "Kojelauta",
+    "navCourse": "Kurssi",
+    "navLogout": "Kirjaudu ulos",
+    "progressHeading": "Kurssin eteneminen",
+    "progressLabel": "{completed} / {total} kuukautta suoritettu",
+    "monthsHeading": "Kurssin kuukaudet",
+    "statusNotStarted": "Ei aloitettu",
+    "statusInProgress": "Kesken",
+    "statusCompleted": "Suoritettu",
+    "viewLessons": "Näytä oppitunnit"
+  },
+  "lessonPage": {
+    "monthLabel": "Kuukausi {month}",
+    "objectivesHeading": "Oppimistavoitteet",
+    "grammarHeading": "Kielioppi",
+    "tableFinnish": "Suomi",
+    "tableEnglish": "Englanti",
+    "tableBangla": "বাংলা",
+    "examplesHeading": "Esimerkkejä",
+    "vocabularyHeading": "Sanasto",
+    "pronunciationHeading": "Ääntäminen",
+    "mistakesHeading": "Yleisiä virheitä",
+    "practiceHeading": "Harjoittelu",
+    "showAnswer": "Näytä vastaus",
+    "answerLabel": "Vastaus",
+    "quizHeading": "Pieni tietokilpailu",
+    "submitQuiz": "Tarkista vastaukset",
+    "quizScore": "Sait {score} / {total} oikein",
+    "retryQuiz": "Yritä uudelleen",
+    "summaryHeading": "Yhteenveto",
+    "markCompleteHeading": "Merkitse oppitunti suoritetuksi",
+    "markCompleteDescription": "Kun olet käynyt läpi oppitunnin, merkitse se suoritetuksi.",
+    "alreadyCompleted": "Olet suorittanut tämän oppitunnin.",
+    "markCompleteButton": "Merkitse suoritetuksi",
+    "completedLabel": "Suoritettu ✓",
+    "markCompleteError": "Suorituksen tallentaminen epäonnistui. Yritä uudelleen.",
+    "backToDashboard": "Takaisin kojelautaan",
+    "backToMonth": "Takaisin kuukauteen {month}"
+  },
+  "footer": {
+    "tagline": "Kymmenen kuukauden mittainen, live-opetettu suomen kielen kurssi.",
+    "siteHeading": "Sivusto",
+    "supportHeading": "Tuki",
+    "faq": "UKK",
+    "rights": "Kaikki oikeudet pidätetään."
+  },
+  "languageSwitcher": {
+    "label": "Kieli",
+    "fi": "Suomi",
+    "en": "English"
+  }
+}

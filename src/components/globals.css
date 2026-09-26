@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #1B2622;
+  --spruce: #2C4A3E;
+  --spruce-dark: #1B2F28;
+  --lake: #4C7A8C;
+  --lake-dark: #375C6B;
+  --birch: #ECE6D6;
+  --paper: #FAF8F1;
+  --snow: #FFFFFF;
+  --lingon: #9C3B34;
+  --line: rgba(27, 38, 34, 0.14);
+}
+
+@theme inline {
+  --color-ink: var(--ink);
+  --color-spruce: var(--spruce);
+  --color-spruce-dark: var(--spruce-dark);
+  --color-lake: var(--lake);
+  --color-lake-dark: var(--lake-dark);
+  --color-birch: var(--birch);
+  --color-paper: var(--paper);
+  --color-snow: var(--snow);
+  --color-lingon: var(--lingon);
+  --color-line: var(--line);
+
+  --font-serif: "Newsreader", Georgia, serif;
+  --font-sans: "Work Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 17px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  color: var(--spruce-dark);
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}

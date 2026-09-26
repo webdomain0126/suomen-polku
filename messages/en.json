@@ -1,0 +1,421 @@
+{
+  "navigation": {
+    "home": "Home",
+    "course": "Course",
+    "resources": "Resources",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Register"
+  },
+  "home": {
+    "badge": "10-month programme · live on Zoom",
+    "title": "Learn Finnish.",
+    "subtitle": "Understand. Speak. Read. Write.",
+    "description": "A structured ten-month Finnish language course with instructor-led live classes and practical, purpose-built learning materials.",
+    "ctaCourse": "Explore the course",
+    "ctaRegister": "Register now"
+  },
+  "courseOverview": {
+    "heading": "The course at a glance",
+    "duration": "10 months",
+    "durationLabel": "Structured programme",
+    "frequency": "2 classes / week",
+    "frequencyLabel": "Live classes",
+    "length": "2 hours / class",
+    "lengthLabel": "4 hours per week",
+    "price": "€35 / month",
+    "priceLabel": "Monthly plan",
+    "platform": "Zoom",
+    "platformLabel": "Live classes"
+  },
+  "journey": {
+    "kicker": "The path",
+    "heading": "Your learning journey",
+    "description": "One clear route from the alphabet to confident conversation — ten stages, one month at a time.",
+    "steps": {
+      "s1": "Finnish Foundations",
+      "s2": "Verbs & Everyday Sentences",
+      "s3": "K-P-T & Nouns",
+      "s4": "Cases I",
+      "s5": "Cases II",
+      "s6": "Objects, Pronouns & Adjectives",
+      "s7": "Past & Other Verb Forms",
+      "s8": "Sentence Construction",
+      "s9": "Real-Life Finnish",
+      "s10": "Finnish Independence"
+    }
+  },
+  "features": {
+    "kicker": "The curriculum",
+    "heading": "What you will learn",
+    "foundations": { "title": "Finnish Foundations", "items": "Alphabet, vowels, consonants, pronunciation, syllables" },
+    "grammar": { "title": "Grammar", "items": "Pronouns, olla, possessive forms, Finnish cases, verb types" },
+    "communication": { "title": "Communication", "items": "Greetings, introductions, questions, everyday conversations" },
+    "practical": { "title": "Practical Finnish", "items": "Work-related Finnish, everyday situations, reading, writing, speaking" }
+  },
+  "news": {
+    "kicker": "Stay in the loop",
+    "heading": "Latest course information",
+    "announcement": { "tag": "Announcement", "title": "New course information", "desc": "The next intake is now open for registration." },
+    "liveClass": { "tag": "Live class", "title": "Upcoming Zoom class", "desc": "The next live lesson is coming up soon — join us." },
+    "material": { "tag": "Material", "title": "New learning material", "desc": "A new practice pack has just been added to the resources." },
+    "practice": { "tag": "Practice", "title": "New exercise available", "desc": "Test what you've learned with the newest practice exercise." }
+  },
+  "resourcesTeaser": {
+    "kicker": "Study library",
+    "heading": "Course resources",
+    "description": "Grammar, vocabulary, exercises, slides and PDFs — organised by topic.",
+    "chips": "Grammar,Vocabulary,Exercises,Lecture slides,PDFs",
+    "cta": "View all resources"
+  },
+  "instructor": {
+    "kicker": "Meet your mentor",
+    "heading": "Rafiqul Hyder",
+    "role": "Finnish Language Instructor",
+    "bio": "Every lesson, slide and PDF in this course is built from scratch — around the questions students actually ask. Explanations move between Finnish, English and Bangla, so the logic behind the grammar is never a mystery.",
+    "quote": "\"Finnish grammar shouldn't be a guessing game — every rule has a reason, and it's worth explaining.\"",
+    "quoteAttribution": "— Rafiqul Hyder",
+    "supportHeading": "Live mentor support",
+    "supportPoints": "Q&A,Discussion,Grammar help,Pronunciation help,Speaking practice",
+    "cta": "Learn more"
+  },
+  "why": {
+    "kicker": "Why this course",
+    "heading": "Built to actually get you speaking Finnish",
+    "points": "A structured ten-month curriculum,Twice-weekly live classes on Zoom,Instructor-created materials,Explanations in English and Bangla,Practical Finnish for daily life and work,Grammar explained clearly,Guided practice every week,Preparation for language examinations"
+  },
+  "pricing": {
+    "kicker": "Pricing",
+    "heading": "Choose the way you want to study",
+    "liveMonthly": { "title": "Live Monthly", "price": "€35 / month", "features": "2 live classes / week,2 hours / class,Course materials,Practice,Student dashboard", "cta": "Start learning" },
+    "lifetime": { "title": "Lifetime Video", "price": "€100 one-time", "features": "Recorded lessons,Lifetime access,Course materials,Self-paced learning,No live classes", "cta": "Get lifetime access" },
+    "fullLive": { "title": "10-Month Live", "price": "€350 total", "features": "Full 10-month curriculum,Live classes,Course materials,Practice,Student dashboard", "cta": "Join full course" }
+  },
+  "finalCta": {
+    "heading": "Ready to start learning Finnish?",
+    "description": "Build your Finnish skills step by step with a structured learning programme.",
+    "cta": "Register now"
+  },
+  "coursePage": {
+    "hero": {
+      "kicker": "Finnish Language Course",
+      "heading": "A structured 10-month Finnish course",
+      "description": "Two live classes a week, two hours each — four hours a week in total. This course is for anyone who wants to learn Finnish systematically from the start, for daily life, work, or study.",
+      "ctaPrimary": "Register now",
+      "ctaSecondary": "View the curriculum"
+    },
+    "howItWorks": {
+      "kicker": "How the course works",
+      "heading": "A clear, guided learning path",
+      "items": "Structured 10-month progression,Live classes on Zoom,Instructor-created materials,Finnish examples,Explanations in Bangla,Guided practice,Exercises and tasks,Quizzes,Progress tracking later in the student platform,Live mentor support"
+    },
+    "curriculum": {
+      "kicker": "Curriculum",
+      "heading": "The full 10-month course",
+      "description": "Each month builds on the last — from the alphabet to independent, everyday Finnish.",
+      "months": {
+        "m1": { "title": "Finnish Foundations", "desc": "The alphabet, pronunciation, and your first sentences.", "topics": "Alphabet,Vowels & consonants,Long & short sounds,Syllables & stress,Personal pronouns,The verb olla,Basic sentences" },
+        "m2": { "title": "Verbs & Everyday Sentences", "desc": "Present-tense verbs, verb types, and everyday vocabulary.", "topics": "Verb stem,Personal endings,Present tense,Positive & negative forms,Verb types 1–6,Infinitive,Greetings,Family & work" },
+        "m3": { "title": "K-P-T & Nouns", "desc": "Consonant gradation and noun basics.", "topics": "K-P-T gradation,Strong & weak grade,Nouns,Singular & plural,Word stems,Exceptions" },
+        "m4": { "title": "Cases I", "desc": "The first seven Finnish cases and how to use them.", "topics": "Nominative,Genitive,Accusative,Partitive,Inessive,Elative,Illative,Missä? Mistä? Mihin?" },
+        "m5": { "title": "Cases II", "desc": "The remaining cases, compared and applied.", "topics": "Adessive,Ablative,Allative,Essive,Translative,Abessive,Comitative,Case comparison" },
+        "m6": { "title": "Objects, Pronouns & Adjectives", "desc": "Objects, pronouns, and how adjectives change.", "topics": "Total object,Partitive object,Objects in negatives,Pronoun case forms,Demonstrative pronouns,Kuka / mikä,Adjective + noun,Comparative & superlative" },
+        "m7": { "title": "Past & Other Verb Forms", "desc": "Past tenses, the conditional, and the imperative.", "topics": "Imperfect,Perfect,Pluperfect,Conditional (-isi-),Negative conditional,Imperative,Negative commands" },
+        "m8": { "title": "Sentence Construction", "desc": "Sentence structure, word order, and clauses.", "topics": "Word order,Questions,Negative sentences,että / koska / jos,kun / vaikka,Relative clauses,Longer sentences" },
+        "m9": { "title": "Real-Life Finnish", "desc": "Practical Finnish for everyday life — and spoken forms.", "topics": "Shopping,Restaurant,Transportation,Doctor,Workplace,Housing,Government services,Spoken forms: mä / sä / se / ne" },
+        "m10": { "title": "Finnish Independence", "desc": "A full review, building toward independent Finnish.", "topics": "Grammar review,Speaking practice,Everyday conversations,Writing messages & forms,Emails,Reading,Listening,Final practice" }
+      }
+    },
+    "learningMethod": {
+      "kicker": "Teaching method",
+      "heading": "Finnish stays Finnish — the explanation is in Bangla",
+      "description": "Finnish examples always stay in Finnish. Difficult grammar is explained clearly in Bangla, with English used when it helps for comparison.",
+      "example": {
+        "finnishLabel": "Finnish",
+        "finnish": "Minä olen opiskelija.",
+        "banglaLabel": "বাংলা",
+        "bangla": "আমি একজন শিক্ষার্থী।",
+        "englishLabel": "English",
+        "english": "I am a student."
+      }
+    },
+    "whatYouGet": {
+      "kicker": "What's included",
+      "heading": "What you'll get with the course",
+      "items": "Live classes on Zoom,Instructor-created materials,Grammar explanations,Explanations in Bangla,Finnish examples,Vocabulary,Exercises,Guided practice,Quizzes,Lecture slides,PDF materials,Video where applicable,Progress tracking,Live mentor support"
+    },
+    "plans": {
+      "kicker": "Course plans",
+      "heading": "Choose the way you want to study",
+      "liveMonthly": { "title": "Live Monthly", "price": "€35 / month", "features": "2 live classes / week,2 hours / class,4 hours / week,Course materials,Practice,Live mentor support", "cta": "Start learning" },
+      "lifetime": { "title": "Lifetime Video", "price": "€100 one-time", "features": "Recorded lessons,Lifetime access,Course materials,Self-paced learning,No live classes", "cta": "Get lifetime access" },
+      "fullLive": { "title": "10-Month Live", "price": "€350 total", "features": "Full 10-month curriculum,Live classes,Course materials,Practice,Live mentor support", "cta": "Join full course" }
+    },
+    "finalCta": {
+      "heading": "Ready to get started?",
+      "description": "Join the course and start learning Finnish in a structured way, right from the beginning.",
+      "ctaRegister": "Register now",
+      "ctaSecondary": "Browse resources"
+    }
+  },
+  "resourcesPage": {
+    "hero": {
+      "kicker": "Learning resources",
+      "heading": "Finnish learning resources",
+      "description": "Learn Finnish through structured grammar explanations, vocabulary, pronunciation practice, exercises, lecture slides, PDF materials and video lessons.",
+      "cta": "Explore the course"
+    },
+    "categories": {
+      "kicker": "Material types",
+      "heading": "What's included in the course",
+      "cta": "Included in the course",
+      "grammar": { "title": "Grammar", "desc": "Finnish grammar explained step by step. Difficult topics are explained clearly, with Finnish examples and Bangla explanations." },
+      "vocabulary": { "title": "Vocabulary", "desc": "Useful Finnish words and expressions, organised around practical topics." },
+      "pronunciation": { "title": "Pronunciation", "desc": "Finnish sounds, long and short sounds, syllables, and speaking practice." },
+      "lectureSlides": { "title": "Lecture Slides", "desc": "Teacher-created presentation materials used during the live classes." },
+      "pdfMaterials": { "title": "PDF Materials", "desc": "Structured learning materials and reference documents to support the course." },
+      "exercises": { "title": "Exercises", "desc": "Practice activities that reinforce Finnish grammar and vocabulary." },
+      "videoLessons": { "title": "Video Lessons", "desc": "Video-based learning for students who want to review material at their own pace." }
+    },
+    "grammarPreview": {
+      "kicker": "Grammar at a glance",
+      "heading": "Grammar areas covered in the course",
+      "description": "This is a short preview — the complete lessons live inside the student platform.",
+      "topics": "Alphabet & pronunciation,Personal pronouns,The verb olla,Verb types 1–6,Present tense,K-P-T consonant gradation,Infinitive & verb forms,Nouns,Finnish cases,Adjectives,Pronoun cases,Possession,Plural,Questions,Sentence structure,Objects,Negation,Past tense,Future meaning,Participles,Passive,Conditional,Imperative,Spoken Finnish,Numbers & time,Postpositions & prepositions,Conjunctions & connectors,Relative clauses,Comparisons,Advanced Finnish grammar"
+    },
+    "banglaApproach": {
+      "kicker": "Teaching method",
+      "heading": "Finnish stays Finnish — the explanation is in Bangla",
+      "description": "Finnish examples always stay in Finnish. Difficult grammar is explained clearly in Bangla, with English used when it helps for comparison.",
+      "example": {
+        "finnishLabel": "Finnish",
+        "finnish": "Minä olen opiskelija.",
+        "banglaLabel": "বাংলা",
+        "bangla": "আমি একজন শিক্ষার্থী।",
+        "englishLabel": "English",
+        "english": "I am a student."
+      }
+    },
+    "learningFlow": {
+      "kicker": "How the resources are used",
+      "heading": "The learning flow",
+      "description": "Resources support the structured 10-month course. Lesson completion, exercises, quizzes and progress tracking will be connected to the student platform later.",
+      "steps": "Learn,Understand,Practice,Review,Test"
+    },
+    "courseConnection": {
+      "kicker": "Part of the course",
+      "heading": "Resources follow the course progression",
+      "description": "Every resource connects to a specific stage of the course, from the alphabet to independent Finnish.",
+      "steps": "Finnish Foundations,Verbs,K-P-T,Cases,Objects & pronouns & adjectives,Past verb forms,Sentence construction,Real-life Finnish,Independent Finnish",
+      "cta": "View the full curriculum"
+    },
+    "finalCta": {
+      "heading": "Ready to start learning Finnish?",
+      "description": "Explore the course, or register directly.",
+      "ctaRegister": "Register",
+      "ctaSecondary": "View the course"
+    }
+  },
+  "aboutPage": {
+    "mission": {
+      "kicker": "About us",
+      "heading": "Suomen Polku is a Finnish language learning platform",
+      "paragraph": "Suomen Polku is designed to help learners build practical Finnish skills step by step.",
+      "focusList": "Understanding Finnish grammar,Building useful vocabulary,Improving pronunciation,Developing reading and writing skills,Developing listening and speaking skills,Using Finnish in everyday situations"
+    },
+    "teachingPhilosophy": {
+      "kicker": "Teaching philosophy",
+      "heading": "Finnish stays Finnish — the explanation is in Bangla",
+      "description": "Finnish examples always stay in Finnish. Difficult grammar is explained clearly in Bangla, with English used when it helps for comparison.",
+      "example": {
+        "finnishLabel": "Finnish",
+        "finnish": "Minä olen opiskelija.",
+        "banglaLabel": "বাংলা",
+        "bangla": "আমি একজন শিক্ষার্থী।",
+        "englishLabel": "English",
+        "english": "I am a student."
+      }
+    },
+    "learningApproach": {
+      "kicker": "Learning approach",
+      "heading": "How you learn, step by step",
+      "description": "Students build their knowledge gradually, instead of trying to memorize everything at once.",
+      "steps": "Learn,Understand,Practice,Repeat,Test"
+    },
+    "whyUs": {
+      "kicker": "Why Suomen Polku",
+      "heading": "Practical goals for learning Finnish",
+      "points": "Communicating in Finnish,Understanding Finnish more confidently,Preparing for real-life situations,Improving work and study opportunities through language skills,Building an independent foundation in Finnish"
+    },
+    "finalCta": {
+      "heading": "Ready to start learning Finnish?",
+      "description": "Explore the course and start your learning journey.",
+      "ctaRegister": "Register",
+      "ctaSecondary": "View the course"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "kicker": "Get in touch",
+      "heading": "Contact us",
+      "description": "Reach out to Suomen Polku if you have questions about the course, learning materials, or registration."
+    },
+    "info": {
+      "heading": "The course at a glance",
+      "items": "10-month course,2 live classes per week,Live classes on Zoom,From €35 / month"
+    },
+    "form": {
+      "nameLabel": "Name",
+      "namePlaceholder": "Your full name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "messageLabel": "Message",
+      "messagePlaceholder": "How can we help?",
+      "nameRequired": "Name is required.",
+      "emailRequired": "Email is required.",
+      "emailInvalid": "Please enter a valid email address.",
+      "messageRequired": "Message is required.",
+      "submit": "Send message",
+      "demoNotice": "This is a demo form — no message was actually sent."
+    },
+    "faq": {
+      "kicker": "FAQ",
+      "heading": "Frequently asked questions",
+      "q1": { "q": "How long is the course?", "a": "The course runs for 10 months." },
+      "q2": { "q": "How many live classes are there each week?", "a": "There are two live classes per week." },
+      "q3": { "q": "How long is each class?", "a": "Each class is 2 hours long, for 4 hours per week in total." },
+      "q4": { "q": "What platform is used for live classes?", "a": "Live classes are held on Zoom." },
+      "q5": { "q": "What languages are used for teaching?", "a": "Finnish stays Finnish. Explanations are given primarily in Bangla, with English used when it's helpful for comparison." },
+      "q6": { "q": "What does the course cover?", "a": "The course moves from Finnish foundations to independent Finnish over ten months: foundations, verbs, K-P-T, cases, objects, pronouns and adjectives, past verb forms, sentence construction, real-life Finnish, and independent Finnish." },
+      "q7": { "q": "Is the course suitable for beginners?", "a": "Yes. The course starts from Finnish foundations, including the alphabet and pronunciation." },
+      "q8": { "q": "What are the available pricing options?", "a": "Live Monthly at €35 / month, Lifetime Video at €100 one-time, and 10-Month Live at €350 total." },
+      "q9": { "q": "What is included in the Lifetime Video option?", "a": "Recorded lessons, lifetime access to materials, and self-paced learning — without live classes." },
+      "q10": { "q": "How can I contact Suomen Polku?", "a": "You can reach out using the contact form on this page." }
+    },
+    "teachingLanguage": {
+      "kicker": "Teaching language",
+      "heading": "Finnish stays Finnish — the explanation is in Bangla",
+      "description": "Finnish examples always stay in Finnish. Difficult grammar is explained clearly in Bangla, with English used when it helps for comparison.",
+      "example": {
+        "finnishLabel": "Finnish",
+        "finnish": "Minä olen opiskelija.",
+        "banglaLabel": "বাংলা",
+        "bangla": "আমি একজন শিক্ষার্থী।",
+        "englishLabel": "English",
+        "english": "I am a student."
+      }
+    }
+  },
+  "authPage": {
+    "login": {
+      "kicker": "Login",
+      "heading": "Welcome back",
+      "description": "Log in to continue learning Finnish.",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Your password",
+      "emailRequired": "Email is required.",
+      "emailInvalid": "Please enter a valid email address.",
+      "passwordRequired": "Password is required.",
+      "invalidCredentials": "That email or password is incorrect.",
+      "serverError": "Something went wrong. Please try again in a moment.",
+      "submit": "Log in",
+      "noAccount": "Don't have an account yet?",
+      "registerLink": "Register",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password"
+    },
+    "register": {
+      "kicker": "Register",
+      "heading": "Create your account",
+      "description": "Start learning Finnish by creating your own account.",
+      "nameLabel": "Name",
+      "namePlaceholder": "Your full name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Create a password",
+      "passwordHint": "At least 8 characters.",
+      "confirmPasswordLabel": "Confirm password",
+      "confirmPasswordPlaceholder": "Type your password again",
+      "nameRequired": "Name is required.",
+      "emailRequired": "Email is required.",
+      "emailInvalid": "Please enter a valid email address.",
+      "emailTaken": "An account with this email already exists.",
+      "passwordRequired": "Password is required.",
+      "passwordTooShort": "Password must be at least 8 characters long.",
+      "confirmRequired": "Please confirm your password.",
+      "passwordMismatch": "Passwords do not match.",
+      "serverError": "Something went wrong. Please try again in a moment.",
+      "submit": "Create account",
+      "haveAccount": "Already have an account?",
+      "loginLink": "Log in",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password"
+    }
+  },
+  "monthPage": {
+    "kicker": "Month {month}",
+    "month1Description": "The foundations of Finnish: the alphabet, pronunciation, personal pronouns and your first sentences.",
+    "lessonsHeading": "Lessons",
+    "lessonNumber": "Lesson {number}",
+    "statusCompleted": "Completed ✓",
+    "statusNotStarted": "Not started",
+    "backToDashboard": "Back to dashboard"
+  },
+  "studentPage": {
+    "welcome": "Welcome, {name}!",
+    "navDashboard": "Dashboard",
+    "navCourse": "Course",
+    "navLogout": "Log out",
+    "progressHeading": "Course progress",
+    "progressLabel": "{completed} / {total} months completed",
+    "monthsHeading": "Course months",
+    "statusNotStarted": "Not started",
+    "statusInProgress": "In progress",
+    "statusCompleted": "Completed",
+    "viewLessons": "View lessons"
+  },
+  "lessonPage": {
+    "monthLabel": "Month {month}",
+    "objectivesHeading": "Learning objectives",
+    "grammarHeading": "Grammar",
+    "tableFinnish": "Finnish",
+    "tableEnglish": "English",
+    "tableBangla": "বাংলা",
+    "examplesHeading": "Examples",
+    "vocabularyHeading": "Vocabulary",
+    "pronunciationHeading": "Pronunciation",
+    "mistakesHeading": "Common mistakes",
+    "practiceHeading": "Practice",
+    "showAnswer": "Show answer",
+    "answerLabel": "Answer",
+    "quizHeading": "Mini quiz",
+    "submitQuiz": "Check answers",
+    "quizScore": "You got {score} / {total} correct",
+    "retryQuiz": "Try again",
+    "summaryHeading": "Summary",
+    "markCompleteHeading": "Mark this lesson complete",
+    "markCompleteDescription": "Once you've gone through the lesson, mark it as complete.",
+    "alreadyCompleted": "You've completed this lesson.",
+    "markCompleteButton": "Mark complete",
+    "completedLabel": "Completed ✓",
+    "markCompleteError": "Couldn't save your progress. Please try again.",
+    "backToDashboard": "Back to dashboard",
+    "backToMonth": "Back to Month {month}"
+  },
+  "footer": {
+    "tagline": "A ten-month, live-taught Finnish language course.",
+    "siteHeading": "Site",
+    "supportHeading": "Support",
+    "faq": "FAQ",
+    "rights": "All rights reserved."
+  },
+  "languageSwitcher": {
+    "label": "Language",
+    "fi": "Suomi",
+    "en": "English"
+  }
+}
