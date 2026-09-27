@@ -55,6 +55,10 @@ export const routing = defineRouting({
       fi: "/opiskelija/kurssi/kuukausi-1/suomen-aakkoset-ja-aantaminen",
       en: "/student/course/month-1/finnish-alphabet-pronunciation",
     },
+    "/student/course/month-1/olla-basic-sentences": {
+      fi: "/opiskelija/kurssi/kuukausi-1/olla-ja-peruslauseet",
+      en: "/student/course/month-1/olla-basic-sentences",
+    },
   },
 });
 
