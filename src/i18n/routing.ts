@@ -59,6 +59,10 @@ export const routing = defineRouting({
       fi: "/opiskelija/kurssi/kuukausi-1/olla-ja-peruslauseet",
       en: "/student/course/month-1/olla-basic-sentences",
     },
+    "/student/course/month-1/present-tense": {
+      fi: "/opiskelija/kurssi/kuukausi-1/preesens",
+      en: "/student/course/month-1/present-tense",
+    },
   },
 });
 
