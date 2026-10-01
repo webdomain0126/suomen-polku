@@ -7,7 +7,8 @@ export type LessonHref =
   | "/student/course/month-1/personal-pronouns"
   | "/student/course/month-1/finnish-alphabet-pronunciation"
   | "/student/course/month-1/olla-basic-sentences"
-  | "/student/course/month-1/present-tense";
+  | "/student/course/month-1/present-tense"
+  | "/student/course/month-1/verb-types-1-2";
 
 export type LessonMeta = {
   id: string;
@@ -41,6 +42,12 @@ export const LESSONS: LessonMeta[] = [
     month: 1,
     slug: "present-tense",
     href: "/student/course/month-1/present-tense",
+  },
+  {
+    id: "month-1-verb-types-1-2",
+    month: 1,
+    slug: "verb-types-1-2",
+    href: "/student/course/month-1/verb-types-1-2",
   },
 ];
 
