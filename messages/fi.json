@@ -35,7 +35,7 @@
     "description": "Yksi selkeä reitti aakkosista sujuvaan keskusteluun — kymmenen vaihetta, kuukausi kerrallaan.",
     "steps": {
       "s1": "Suomen perusteet",
-      "s2": "Verbit ja arkilauseet",
+      "s2": "Arkisuomi ja lauseet",
       "s3": "K-P-T ja substantiivit",
       "s4": "Sijamuodot I",
       "s5": "Sijamuodot II",
@@ -108,21 +108,21 @@
     "howItWorks": {
       "kicker": "Näin kurssi toimii",
       "heading": "Selkeä, ohjattu oppimispolku",
-      "items": "Strukturoitu 10 kuukauden eteneminen,Live-tunnit Zoomissa,Opettajan itse luomat materiaalit,Suomenkieliset esimerkit,Selitykset bengaliksi,Ohjattua harjoittelua,Harjoitukset ja tehtävät,Tietokilpailut,Edistymisen seuranta myöhemmin opiskelija-alustalla,Elävä mentorituki"
+      "items": "Strukturoitu 10 kuukauden eteneminen,Live-tunnit Zoomissa,Opettajan itse luomat materiaalit,Suomenkieliset esimerkit,Selitykset bengaliksi,Ohjattua harjoittelua,Harjoitukset ja tehtävät,Tietokilpailut,Edistymisen seuranta opiskelija-alustalla,Elävä mentorituki"
     },
     "curriculum": {
       "kicker": "Opetussuunnitelma",
       "heading": "Koko 10 kuukauden kurssi",
       "description": "Jokainen kuukausi rakentuu edellisen päälle — aakkosista itsenäiseen suomen käyttöön.",
       "months": {
-        "m1": { "title": "Suomen perusteet", "desc": "Aakkoset, ääntäminen ja ensimmäiset lauseet.", "topics": "Aakkoset,Vokaalit ja konsonantit,Pitkät ja lyhyet äänteet,Tavutus ja paino,Persoonapronominit,Olla-verbi,Peruslauseet" },
-        "m2": { "title": "Verbit ja arkilauseet", "desc": "Preesens, verbityypit ja arjen sanasto.", "topics": "Verbivartalo,Persoonapäätteet,Preesens,Myönteiset ja kielteiset lauseet,Verbityypit 1–6,Infinitiivi,Tervehdykset,Perhe ja työ" },
+        "m1": { "title": "Suomen perusteet", "desc": "Aakkoset, ääntäminen, olla-verbi, preesens ja kaikki kuusi verbityyppiä.", "topics": "Persoonapronominit,Aakkoset ja ääntäminen,Olla-verbi,Peruslauseet,Preesens,Verbityypit 1–6,Kuukauden 1 kertaus" },
+        "m2": { "title": "Arkisuomi ja lauseet", "desc": "Kielteiset lauseet, kysymykset ja arjen viestintä.", "topics": "Kielteiset lauseet,Kysymykset,Infinitiivi,Tervehdykset,Itsensä esittely,Perhe ja työ,Arjen sanasto" },
         "m3": { "title": "K-P-T ja substantiivit", "desc": "Astevaihtelu ja substantiivien perusmuodot.", "topics": "K-P-T-astevaihtelu,Vahva ja heikko aste,Substantiivit,Yksikkö ja monikko,Sanavartalot,Poikkeukset" },
         "m4": { "title": "Sijamuodot I", "desc": "Ensimmäiset seitsemän sijamuotoa ja niiden käyttö.", "topics": "Nominatiivi,Genetiivi,Akkusatiivi,Partitiivi,Inessiivi,Elatiivi,Illatiivi,Missä? Mistä? Mihin?" },
-        "m5": { "title": "Sijamuodot II", "desc": "Loput sijamuodot ja niiden vertailu.", "topics": "Adessiivi,Ablatiivi,Allatiivi,Essiivi,Translatiivi,Abessiivi,Komitatiivi,Sijamuotojen vertailu" },
-        "m6": { "title": "Objektit, pronominit ja adjektiivit", "desc": "Objektit, pronominit ja adjektiivien taivutus.", "topics": "Totaaliobjekti,Partitiiviobjekti,Objekti kielteisessä lauseessa,Persoonapronominien sijamuodot,Demonstratiivipronominit,Kuka / mikä,Adjektiivi + substantiivi,Komparatiivi ja superlatiivi" },
+        "m5": { "title": "Sijamuodot II", "desc": "Loput sijamuodot ja niiden vertailu.", "topics": "Adessiivi,Ablatiivi,Allatiivi,Essiivi,Translatiivi,Abessiivi,Komitatiivi,Sijamuotojen vertailu,Monikon sijamuodot" },
+        "m6": { "title": "Objektit, pronominit ja adjektiivit", "desc": "Objektit, pronominit ja adjektiivien taivutus.", "topics": "Totaaliobjekti,Partitiiviobjekti,Objekti kielteisessä lauseessa,Persoonapronominien sijamuodot,Demonstratiivipronominit,Kuka / mikä,Adjektiivi + substantiivi,Komparatiivi ja superlatiivi,Adverbit" },
         "m7": { "title": "Menneet aikamuodot ja muut verbimuodot", "desc": "Menneet aikamuodot, konditionaali ja imperatiivi.", "topics": "Imperfekti,Perfekti,Pluskvamperfekti,Konditionaali (-isi-),Kielteinen konditionaali,Imperatiivi,Kielteinen käsky" },
-        "m8": { "title": "Lauserakenne", "desc": "Lauserakenne, sanajärjestys ja sivulauseet.", "topics": "Sanajärjestys,Kysymyslauseet,Kielteiset lauseet,että / koska / jos,kun / vaikka,Relatiivilauseet,Pidemmät lauseet" },
+        "m8": { "title": "Lauserakenne", "desc": "Lauserakenne, sanajärjestys, sivulauseet, passiivi ja ma/mä-muoto.", "topics": "Sanajärjestys,Kysymyslauseet,Kielteiset lauseet,että / koska / jos,kun / vaikka,Relatiivilauseet,Pidemmät lauseet,Passiivi,ma/mä-muoto (menen syömään)" },
         "m9": { "title": "Arjen suomi", "desc": "Käytännön suomea arkeen — ja puhekielen muodot.", "topics": "Kaupassa,Ravintolassa,Liikenteessä,Lääkärissä,Työpaikalla,Asuminen,Viranomaisasiat,Puhekieli: mä / sä / se / ne" },
         "m10": { "title": "Itsenäinen suomen taito", "desc": "Kokonaiskertaus ja itsenäinen suomen käyttö.", "topics": "Kielioppikertaus,Puheharjoitukset,Arkikeskustelut,Viestien ja lomakkeiden kirjoittaminen,Sähköpostit,Lukeminen,Kuunteleminen,Loppuharjoitukset" }
       }

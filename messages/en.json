@@ -35,7 +35,7 @@
     "description": "One clear route from the alphabet to confident conversation — ten stages, one month at a time.",
     "steps": {
       "s1": "Finnish Foundations",
-      "s2": "Verbs & Everyday Sentences",
+      "s2": "Everyday Finnish & Sentences",
       "s3": "K-P-T & Nouns",
       "s4": "Cases I",
       "s5": "Cases II",
@@ -108,21 +108,21 @@
     "howItWorks": {
       "kicker": "How the course works",
       "heading": "A clear, guided learning path",
-      "items": "Structured 10-month progression,Live classes on Zoom,Instructor-created materials,Finnish examples,Explanations in Bangla,Guided practice,Exercises and tasks,Quizzes,Progress tracking later in the student platform,Live mentor support"
+      "items": "Structured 10-month progression,Live classes on Zoom,Instructor-created materials,Finnish examples,Explanations in Bangla,Guided practice,Exercises and tasks,Quizzes,Progress tracking in the student platform,Live mentor support"
     },
     "curriculum": {
       "kicker": "Curriculum",
       "heading": "The full 10-month course",
       "description": "Each month builds on the last — from the alphabet to independent, everyday Finnish.",
       "months": {
-        "m1": { "title": "Finnish Foundations", "desc": "The alphabet, pronunciation, and your first sentences.", "topics": "Alphabet,Vowels & consonants,Long & short sounds,Syllables & stress,Personal pronouns,The verb olla,Basic sentences" },
-        "m2": { "title": "Verbs & Everyday Sentences", "desc": "Present-tense verbs, verb types, and everyday vocabulary.", "topics": "Verb stem,Personal endings,Present tense,Positive & negative forms,Verb types 1–6,Infinitive,Greetings,Family & work" },
+        "m1": { "title": "Finnish Foundations", "desc": "The alphabet, pronunciation, the verb olla, the present tense and all six verb types.", "topics": "Personal pronouns,Alphabet & pronunciation,The verb olla,Basic sentences,Present tense,Verb types 1–6,Month 1 review" },
+        "m2": { "title": "Everyday Finnish & Sentences", "desc": "Negative sentences, questions and everyday communication.", "topics": "Negative sentences,Questions,Infinitive,Greetings,Introducing yourself,Family & work,Everyday vocabulary" },
         "m3": { "title": "K-P-T & Nouns", "desc": "Consonant gradation and noun basics.", "topics": "K-P-T gradation,Strong & weak grade,Nouns,Singular & plural,Word stems,Exceptions" },
         "m4": { "title": "Cases I", "desc": "The first seven Finnish cases and how to use them.", "topics": "Nominative,Genitive,Accusative,Partitive,Inessive,Elative,Illative,Missä? Mistä? Mihin?" },
-        "m5": { "title": "Cases II", "desc": "The remaining cases, compared and applied.", "topics": "Adessive,Ablative,Allative,Essive,Translative,Abessive,Comitative,Case comparison" },
-        "m6": { "title": "Objects, Pronouns & Adjectives", "desc": "Objects, pronouns, and how adjectives change.", "topics": "Total object,Partitive object,Objects in negatives,Pronoun case forms,Demonstrative pronouns,Kuka / mikä,Adjective + noun,Comparative & superlative" },
+        "m5": { "title": "Cases II", "desc": "The remaining cases, compared and applied.", "topics": "Adessive,Ablative,Allative,Essive,Translative,Abessive,Comitative,Case comparison,Plural case forms" },
+        "m6": { "title": "Objects, Pronouns & Adjectives", "desc": "Objects, pronouns, and how adjectives change.", "topics": "Total object,Partitive object,Objects in negatives,Pronoun case forms,Demonstrative pronouns,Kuka / mikä,Adjective + noun,Comparative & superlative,Adverbs" },
         "m7": { "title": "Past & Other Verb Forms", "desc": "Past tenses, the conditional, and the imperative.", "topics": "Imperfect,Perfect,Pluperfect,Conditional (-isi-),Negative conditional,Imperative,Negative commands" },
-        "m8": { "title": "Sentence Construction", "desc": "Sentence structure, word order, and clauses.", "topics": "Word order,Questions,Negative sentences,että / koska / jos,kun / vaikka,Relative clauses,Longer sentences" },
+        "m8": { "title": "Sentence Construction", "desc": "Sentence structure, word order, clauses, the passive and the ma/mä form.", "topics": "Word order,Questions,Negative sentences,että / koska / jos,kun / vaikka,Relative clauses,Longer sentences,Passive,ma/mä form (menen syömään)" },
         "m9": { "title": "Real-Life Finnish", "desc": "Practical Finnish for everyday life — and spoken forms.", "topics": "Shopping,Restaurant,Transportation,Doctor,Workplace,Housing,Government services,Spoken forms: mä / sä / se / ne" },
         "m10": { "title": "Finnish Independence", "desc": "A full review, building toward independent Finnish.", "topics": "Grammar review,Speaking practice,Everyday conversations,Writing messages & forms,Emails,Reading,Listening,Final practice" }
       }
