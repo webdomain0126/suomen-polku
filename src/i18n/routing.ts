@@ -83,6 +83,10 @@ export const routing = defineRouting({
       fi: "/opiskelija/kurssi/kuukausi-1/verbityyppi-6",
       en: "/student/course/month-1/verb-type-6",
     },
+    "/student/course/month-1/review": {
+      fi: "/opiskelija/kurssi/kuukausi-1/kertaus",
+      en: "/student/course/month-1/review",
+    },
   },
 });
 

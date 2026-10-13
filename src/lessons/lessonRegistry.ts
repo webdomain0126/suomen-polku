@@ -12,7 +12,8 @@ export type LessonHref =
   | "/student/course/month-1/verb-type-3"
   | "/student/course/month-1/verb-type-4"
   | "/student/course/month-1/verb-type-5"
-  | "/student/course/month-1/verb-type-6";
+  | "/student/course/month-1/verb-type-6"
+  | "/student/course/month-1/review";
 
 export type LessonMeta = {
   id: string;
@@ -76,6 +77,12 @@ export const LESSONS: LessonMeta[] = [
     month: 1,
     slug: "verb-type-6",
     href: "/student/course/month-1/verb-type-6",
+  },
+  {
+    id: "month-1-review",
+    month: 1,
+    slug: "review",
+    href: "/student/course/month-1/review",
   },
 ];
 
