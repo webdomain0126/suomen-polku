@@ -23,6 +23,15 @@ export type LessonMeta = {
   href: LessonHref; // internal route key from src/i18n/routing.ts
 };
 
+// Months whose curriculum is FULLY built. A month can show "Completed" on
+// the dashboard only if it is listed here AND the student has completed
+// all of its lessons. Add a month here only when its last lesson exists.
+export const COMPLETE_MONTHS: readonly number[] = [1];
+
+export function isMonthCurriculumComplete(month: number): boolean {
+  return COMPLETE_MONTHS.includes(month);
+}
+
 // Order here = order shown on the Month pages.
 export const LESSONS: LessonMeta[] = [
   {

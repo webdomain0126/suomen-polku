@@ -2,7 +2,10 @@ import { setRequestLocale } from "next-intl/server";
 import { redirect } from "@/i18n/navigation";
 import { getSessionUserId } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
-import { getLessonIdsForMonth } from "@/lessons/lessonRegistry";
+import {
+  getLessonIdsForMonth,
+  isMonthCurriculumComplete,
+} from "@/lessons/lessonRegistry";
 import StudentNav from "@/components/StudentNav";
 import WelcomeSection from "@/components/WelcomeSection";
 import CourseOverview from "@/components/CourseOverview";
@@ -58,20 +61,28 @@ export default async function StudentDashboardPage({
     lessonRows.map((row: { lessonId: string }) => row.lessonId)
   );
 
+  // Completion rule: a month is "completed" ONLY if its curriculum is fully
+  // built (COMPLETE_MONTHS in lessonRegistry) AND the student has completed
+  // all of its lessons. A month still being built shows "inProgress" even
+  // when every currently available lesson is done.
   const statuses: MonthStatus[] = Array.from({ length: TOTAL_MONTHS }, (_, i) => {
     const month = i + 1;
+    const curriculumComplete = isMonthCurriculumComplete(month);
     const lessonIds = getLessonIdsForMonth(month);
 
     // Months with registered lessons: status comes from lesson progress.
     if (lessonIds.length > 0) {
       const done = lessonIds.filter((id) => completedLessons.has(id)).length;
-      if (done === lessonIds.length) return "completed";
+      if (done === lessonIds.length && curriculumComplete) return "completed";
       if (done > 0) return "inProgress";
       return "notStarted";
     }
 
-    // Months without lessons yet: keep the old month-level record.
-    return completedMonths.has(month) ? "completed" : "notStarted";
+    // Months without lessons yet: keep the old month-level record, but it
+    // can only count as completed if the curriculum is fully built.
+    return completedMonths.has(month) && curriculumComplete
+      ? "completed"
+      : "notStarted";
   });
 
   const completedCount = statuses.filter((s) => s === "completed").length;
