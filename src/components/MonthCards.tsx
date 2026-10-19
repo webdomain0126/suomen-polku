@@ -13,9 +13,13 @@ const statusStyles: Record<MonthStatus, string> = {
   completed: "bg-spruce-dark text-paper",
 };
 
-// Months that already have a lesson-list page. Only Month 1 for now.
-const MONTH_LINKS: Record<number, "/student/course/month-1"> = {
-  1: "/student/course/month-1",
+type MonthHref = "/student/course/month-1" | "/student/course/month-2";
+
+// Months that have their own page. Month 1 has lessons; Month 2 currently
+// shows its planned topics, so its link says "View month" instead.
+const MONTH_LINKS: Record<number, { href: MonthHref; label: "viewLessons" | "viewMonth" }> = {
+  1: { href: "/student/course/month-1", label: "viewLessons" },
+  2: { href: "/student/course/month-2", label: "viewMonth" },
 };
 
 export default function MonthCards({
@@ -40,7 +44,7 @@ export default function MonthCards({
           {monthKeys.map((key, i) => {
             const month = i + 1;
             const status = statuses[i] ?? "notStarted";
-            const href = MONTH_LINKS[month];
+            const link = MONTH_LINKS[month];
 
             const content = (
               <>
@@ -55,18 +59,18 @@ export default function MonthCards({
                 >
                   {statusLabel[status]}
                 </span>
-                {href && (
+                {link && (
                   <span className="text-[0.82rem] font-semibold text-lake-dark">
-                    {t("viewLessons")} →
+                    {t(link.label)} →
                   </span>
                 )}
               </>
             );
 
-            return href ? (
+            return link ? (
               <Link
                 key={key}
-                href={href}
+                href={link.href}
                 className="border border-line bg-snow p-5 flex flex-col gap-3 transition-colors hover:border-lake hover:bg-paper"
               >
                 {content}

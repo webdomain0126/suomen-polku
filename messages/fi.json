@@ -358,7 +358,11 @@
   },
   "monthPage": {
     "kicker": "Kuukausi {month}",
-    "month1Description": "Suomen kielen perusta: aakkoset, ääntäminen, persoonapronominit ja ensimmäiset lauseet.",
+    "month1Description": "Suomen kielen perusta: aakkoset, ääntäminen, olla-verbi, preesens ja kaikki kuusi verbityyppiä.",
+    "month2Description": "Arkisuomi: kielteiset lauseet, kysymykset ja kieli, jota tarvitset arjen keskusteluissa.",
+    "plannedTopicsHeading": "Suunnitellut aiheet",
+    "comingSoonHeading": "Oppitunteja valmistellaan",
+    "comingSoonText": "Kuukauden 2 oppitunteja valmistellaan, ja ne tulevat tähän heti, kun ne ovat valmiita. Sillä välin voit kerrata kuukauden 1 oppitunteja.",
     "lessonsHeading": "Oppitunnit",
     "lessonNumber": "Oppitunti {number}",
     "statusCompleted": "Suoritettu ✓",
@@ -376,7 +380,8 @@
     "statusNotStarted": "Ei aloitettu",
     "statusInProgress": "Kesken",
     "statusCompleted": "Suoritettu",
-    "viewLessons": "Näytä oppitunnit"
+    "viewLessons": "Näytä oppitunnit",
+    "viewMonth": "Näytä kuukausi"
   },
   "lessonPage": {
     "monthLabel": "Kuukausi {month}",

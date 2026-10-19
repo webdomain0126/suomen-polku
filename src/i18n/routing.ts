@@ -87,6 +87,10 @@ export const routing = defineRouting({
       fi: "/opiskelija/kurssi/kuukausi-1/kertaus",
       en: "/student/course/month-1/review",
     },
+    "/student/course/month-2": {
+      fi: "/opiskelija/kurssi/kuukausi-2",
+      en: "/student/course/month-2",
+    },
   },
 });
 
