@@ -1,7 +1,7 @@
 // Stable lesson IDs. These never change, even if URLs or titles are
 // translated. The same ID is used for both the Finnish and English routes.
 // This is the ONE shared list of lessons: the progress API, the Month
-// page and the dashboard all read from here.
+// pages and the dashboard all read from here.
 
 export type LessonHref =
   | "/student/course/month-1/personal-pronouns"
@@ -13,7 +13,8 @@ export type LessonHref =
   | "/student/course/month-1/verb-type-4"
   | "/student/course/month-1/verb-type-5"
   | "/student/course/month-1/verb-type-6"
-  | "/student/course/month-1/review";
+  | "/student/course/month-1/review"
+  | "/student/course/month-2/negative-sentences";
 
 export type LessonMeta = {
   id: string;
@@ -22,7 +23,7 @@ export type LessonMeta = {
   href: LessonHref; // internal route key from src/i18n/routing.ts
 };
 
-// Order here = order shown on the Month page.
+// Order here = order shown on the Month pages.
 export const LESSONS: LessonMeta[] = [
   {
     id: "month-1-personal-pronouns",
@@ -83,6 +84,12 @@ export const LESSONS: LessonMeta[] = [
     month: 1,
     slug: "review",
     href: "/student/course/month-1/review",
+  },
+  {
+    id: "month-2-negative-sentences",
+    month: 2,
+    slug: "negative-sentences",
+    href: "/student/course/month-2/negative-sentences",
   },
 ];
 

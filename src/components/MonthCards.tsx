@@ -19,7 +19,7 @@ type MonthHref = "/student/course/month-1" | "/student/course/month-2";
 // shows its planned topics, so its link says "View month" instead.
 const MONTH_LINKS: Record<number, { href: MonthHref; label: "viewLessons" | "viewMonth" }> = {
   1: { href: "/student/course/month-1", label: "viewLessons" },
-  2: { href: "/student/course/month-2", label: "viewMonth" },
+  2: { href: "/student/course/month-2", label: "viewLessons" },
 };
 
 export default function MonthCards({

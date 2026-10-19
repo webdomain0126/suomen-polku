@@ -91,6 +91,10 @@ export const routing = defineRouting({
       fi: "/opiskelija/kurssi/kuukausi-2",
       en: "/student/course/month-2",
     },
+    "/student/course/month-2/negative-sentences": {
+      fi: "/opiskelija/kurssi/kuukausi-2/kielteiset-lauseet",
+      en: "/student/course/month-2/negative-sentences",
+    },
   },
 });
 

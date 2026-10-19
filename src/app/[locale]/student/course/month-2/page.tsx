@@ -1,13 +1,15 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Link, redirect } from "@/i18n/navigation";
 import { getSessionUserId } from "@/lib/auth";
+import { getLessonsForMonth } from "@/lessons/lessonRegistry";
 import StudentNav from "@/components/StudentNav";
+import MonthLessonList from "@/components/MonthLessonList";
 
 const MONTH = 2;
 
-// Month 2 has no implemented lessons yet. This page shows the planned
-// topics and an empty state. When the first Month 2 lesson is added to
-// lessonRegistry.ts, a lesson list will be added here.
+// Month 2 page: lists the registered Month 2 lessons (from lessonRegistry)
+// and the planned topics. While no lessons are registered, an empty state
+// is shown instead of the lesson list.
 export default async function Month2Page({
   params,
 }: {
@@ -29,6 +31,7 @@ export default async function Month2Page({
   // pages always show the same list. They are NOT implemented lessons.
   const course = await getTranslations("coursePage.curriculum.months.m2");
   const topics = course("topics").split(",");
+  const hasLessons = getLessonsForMonth(MONTH).length > 0;
 
   return (
     <>
@@ -54,16 +57,20 @@ export default async function Month2Page({
 
       <section className="px-6 pb-16">
         <div className="max-w-[840px] mx-auto">
-          <div className="border border-line bg-birch p-6 mb-8">
-            <h2 className="text-[1.1rem] mb-2">{t("comingSoonHeading")}</h2>
-            <p className="text-[0.95rem] text-ink/70 mb-4">{t("comingSoonText")}</p>
-            <Link
-              href="/student/course/month-1"
-              className="text-[0.88rem] font-semibold text-lake-dark hover:underline"
-            >
-              &larr; {lessonT("backToMonth", { month: 1 })}
-            </Link>
-          </div>
+          {hasLessons ? (
+            <MonthLessonList month={MONTH} userId={userId!} />
+          ) : (
+            <div className="border border-line bg-birch p-6 mb-8">
+              <h2 className="text-[1.1rem] mb-2">{t("comingSoonHeading")}</h2>
+              <p className="text-[0.95rem] text-ink/70 mb-4">{t("comingSoonText")}</p>
+              <Link
+                href="/student/course/month-1"
+                className="text-[0.88rem] font-semibold text-lake-dark hover:underline"
+              >
+                &larr; {lessonT("backToMonth", { month: 1 })}
+              </Link>
+            </div>
+          )}
 
           <h2 className="text-[1.15rem] mb-4">{t("plannedTopicsHeading")}</h2>
           <ul className="flex flex-wrap gap-2">
