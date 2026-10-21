@@ -10,6 +10,7 @@ import { verbType5Lesson } from "./verbType5";
 import { verbType6Lesson } from "./verbType6";
 import { month1ReviewLesson } from "./month1Review";
 import { negativeSentencesLesson } from "./negativeSentences";
+import { questionsLesson } from "./questions";
 
 // Lesson content, looked up by month + slug. When a new lesson is added,
 // register its content here AND its stable ID in lessonRegistry.ts.
@@ -25,6 +26,7 @@ export const lessons: Lesson[] = [
   verbType6Lesson,
   month1ReviewLesson,
   negativeSentencesLesson,
+  questionsLesson,
 ];
 
 export function getLesson(month: number, slug: string): Lesson | undefined {
