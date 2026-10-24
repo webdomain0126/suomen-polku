@@ -103,6 +103,10 @@ export const routing = defineRouting({
       fi: "/opiskelija/kurssi/kuukausi-2/infinitiivit",
       en: "/student/course/month-2/infinitives",
     },
+    "/student/course/month-2/greetings-introductions": {
+      fi: "/opiskelija/kurssi/kuukausi-2/tervehdykset-ja-esittaytyminen",
+      en: "/student/course/month-2/greetings-introductions",
+    },
   },
 });
 
