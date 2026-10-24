@@ -99,6 +99,10 @@ export const routing = defineRouting({
       fi: "/opiskelija/kurssi/kuukausi-2/kysymykset",
       en: "/student/course/month-2/questions",
     },
+    "/student/course/month-2/infinitives": {
+      fi: "/opiskelija/kurssi/kuukausi-2/infinitiivit",
+      en: "/student/course/month-2/infinitives",
+    },
   },
 });
 
