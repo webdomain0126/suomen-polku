@@ -107,6 +107,10 @@ export const routing = defineRouting({
       fi: "/opiskelija/kurssi/kuukausi-2/tervehdykset-ja-esittaytyminen",
       en: "/student/course/month-2/greetings-introductions",
     },
+    "/student/course/month-2/family-work-everyday-life": {
+      fi: "/opiskelija/kurssi/kuukausi-2/perhe-tyo-ja-arki",
+      en: "/student/course/month-2/family-work-everyday-life",
+    },
   },
 });
 

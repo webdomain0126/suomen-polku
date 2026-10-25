@@ -17,7 +17,8 @@ export type LessonHref =
   | "/student/course/month-2/negative-sentences"
   | "/student/course/month-2/questions"
   | "/student/course/month-2/infinitives"
-  | "/student/course/month-2/greetings-introductions";
+  | "/student/course/month-2/greetings-introductions"
+  | "/student/course/month-2/family-work-everyday-life";
 
 export type LessonMeta = {
   id: string;
@@ -120,6 +121,12 @@ export const LESSONS: LessonMeta[] = [
     month: 2,
     slug: "greetings-introductions",
     href: "/student/course/month-2/greetings-introductions",
+  },
+  {
+    id: "month-2-family-work-everyday-life",
+    month: 2,
+    slug: "family-work-everyday-life",
+    href: "/student/course/month-2/family-work-everyday-life",
   },
 ];
 
