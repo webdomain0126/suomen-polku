@@ -123,6 +123,10 @@ export const routing = defineRouting({
       fi: "/opiskelija/kurssi/kuukausi-2/ajanvaraukset-aika-ja-suunnitelmat",
       en: "/student/course/month-2/appointments-time-plans",
     },
+    "/student/course/month-2/health-feelings-help": {
+      fi: "/opiskelija/kurssi/kuukausi-2/terveys-tunteet-ja-avun-pyytaminen",
+      en: "/student/course/month-2/health-feelings-help",
+    },
   },
 });
 
