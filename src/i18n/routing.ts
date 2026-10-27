@@ -119,6 +119,10 @@ export const routing = defineRouting({
       fi: "/opiskelija/kurssi/kuukausi-2/suunnat-ja-liikkuminen",
       en: "/student/course/month-2/directions-and-transport",
     },
+    "/student/course/month-2/appointments-time-plans": {
+      fi: "/opiskelija/kurssi/kuukausi-2/ajanvaraukset-aika-ja-suunnitelmat",
+      en: "/student/course/month-2/appointments-time-plans",
+    },
   },
 });
 
