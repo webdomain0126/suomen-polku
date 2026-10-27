@@ -116,7 +116,7 @@
       "description": "Each month builds on the last — from the alphabet to independent, everyday Finnish.",
       "months": {
         "m1": { "title": "Finnish Foundations", "desc": "The alphabet, pronunciation, the verb olla, the present tense and all six verb types.", "topics": "Personal pronouns,Alphabet & pronunciation,The verb olla,Basic sentences,Present tense,Verb types 1–6,Month 1 review" },
-        "m2": { "title": "Everyday Finnish & Sentences", "desc": "Negative sentences, questions and everyday communication.", "topics": "Negative sentences,Questions,Infinitive,Greetings,Introducing yourself,Family & work,Everyday vocabulary" },
+        "m2": { "title": "Everyday Finnish & Sentences", "desc": "Everyday communication: negatives, questions, verbs and practical situations from shopping to health.", "topics": "Negative sentences,Questions,Infinitives & everyday verbs,Greetings & introductions,Family & work,Food & shopping,Directions & transport,Appointments & time,Health & asking for help,Review & conversation" },
         "m3": { "title": "K-P-T & Nouns", "desc": "Consonant gradation and noun basics.", "topics": "K-P-T gradation,Strong & weak grade,Nouns,Singular & plural,Word stems,Exceptions" },
         "m4": { "title": "Cases I", "desc": "The first seven Finnish cases and how to use them.", "topics": "Nominative,Genitive,Accusative,Partitive,Inessive,Elative,Illative,Missä? Mistä? Mihin?" },
         "m5": { "title": "Cases II", "desc": "The remaining cases, compared and applied.", "topics": "Adessive,Ablative,Allative,Essive,Translative,Abessive,Comitative,Case comparison,Plural case forms" },

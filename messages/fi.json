@@ -116,7 +116,7 @@
       "description": "Jokainen kuukausi rakentuu edellisen päälle — aakkosista itsenäiseen suomen käyttöön.",
       "months": {
         "m1": { "title": "Suomen perusteet", "desc": "Aakkoset, ääntäminen, olla-verbi, preesens ja kaikki kuusi verbityyppiä.", "topics": "Persoonapronominit,Aakkoset ja ääntäminen,Olla-verbi,Peruslauseet,Preesens,Verbityypit 1–6,Kuukauden 1 kertaus" },
-        "m2": { "title": "Arkisuomi ja lauseet", "desc": "Kielteiset lauseet, kysymykset ja arjen viestintä.", "topics": "Kielteiset lauseet,Kysymykset,Infinitiivi,Tervehdykset,Itsensä esittely,Perhe ja työ,Arjen sanasto" },
+        "m2": { "title": "Arkisuomi ja lauseet", "desc": "Arjen viestintä: kielto, kysymykset, verbit ja käytännön tilanteet ostoksista terveyteen.", "topics": "Kielteiset lauseet,Kysymykset,Infinitiivi ja arjen verbit,Tervehdykset ja esittäytyminen,Perhe ja työ,Ruoka ja ostokset,Suunnat ja liikkuminen,Ajanvaraukset ja aika,Terveys ja avun pyytäminen,Kertaus ja keskustelu" },
         "m3": { "title": "K-P-T ja substantiivit", "desc": "Astevaihtelu ja substantiivien perusmuodot.", "topics": "K-P-T-astevaihtelu,Vahva ja heikko aste,Substantiivit,Yksikkö ja monikko,Sanavartalot,Poikkeukset" },
         "m4": { "title": "Sijamuodot I", "desc": "Ensimmäiset seitsemän sijamuotoa ja niiden käyttö.", "topics": "Nominatiivi,Genetiivi,Akkusatiivi,Partitiivi,Inessiivi,Elatiivi,Illatiivi,Missä? Mistä? Mihin?" },
         "m5": { "title": "Sijamuodot II", "desc": "Loput sijamuodot ja niiden vertailu.", "topics": "Adessiivi,Ablatiivi,Allatiivi,Essiivi,Translatiivi,Abessiivi,Komitatiivi,Sijamuotojen vertailu,Monikon sijamuodot" },
