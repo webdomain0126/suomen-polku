@@ -15,6 +15,7 @@ import { infinitivesLesson } from "./infinitives";
 import { greetingsIntroductionsLesson } from "./greetingsIntroductions";
 import { familyWorkEverydayLifeLesson } from "./familyWorkEverydayLife";
 import { foodShoppingEverydayNeedsLesson } from "./foodShoppingEverydayNeeds";
+import { directionsAndTransportLesson } from "./directionsAndTransport";
 
 // Lesson content, looked up by month + slug. When a new lesson is added,
 // register its content here AND its stable ID in lessonRegistry.ts.
@@ -35,6 +36,7 @@ export const lessons: Lesson[] = [
   greetingsIntroductionsLesson,
   familyWorkEverydayLifeLesson,
   foodShoppingEverydayNeedsLesson,
+  directionsAndTransportLesson,
 ];
 
 export function getLesson(month: number, slug: string): Lesson | undefined {

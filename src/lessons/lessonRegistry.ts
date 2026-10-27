@@ -19,7 +19,8 @@ export type LessonHref =
   | "/student/course/month-2/infinitives"
   | "/student/course/month-2/greetings-introductions"
   | "/student/course/month-2/family-work-everyday-life"
-  | "/student/course/month-2/food-shopping-everyday-needs";
+  | "/student/course/month-2/food-shopping-everyday-needs"
+  | "/student/course/month-2/directions-and-transport";
 
 export type LessonMeta = {
   id: string;
@@ -134,6 +135,12 @@ export const LESSONS: LessonMeta[] = [
     month: 2,
     slug: "food-shopping-everyday-needs",
     href: "/student/course/month-2/food-shopping-everyday-needs",
+  },
+  {
+    id: "month-2-directions-and-transport",
+    month: 2,
+    slug: "directions-and-transport",
+    href: "/student/course/month-2/directions-and-transport",
   },
 ];
 

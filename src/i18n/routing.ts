@@ -115,6 +115,10 @@ export const routing = defineRouting({
       fi: "/opiskelija/kurssi/kuukausi-2/ruoka-ostokset-ja-arjen-tarpeet",
       en: "/student/course/month-2/food-shopping-everyday-needs",
     },
+    "/student/course/month-2/directions-and-transport": {
+      fi: "/opiskelija/kurssi/kuukausi-2/suunnat-ja-liikkuminen",
+      en: "/student/course/month-2/directions-and-transport",
+    },
   },
 });
 
