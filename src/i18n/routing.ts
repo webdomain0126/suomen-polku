@@ -127,6 +127,10 @@ export const routing = defineRouting({
       fi: "/opiskelija/kurssi/kuukausi-2/terveys-tunteet-ja-avun-pyytaminen",
       en: "/student/course/month-2/health-feelings-help",
     },
+    "/student/course/month-2/review": {
+      fi: "/opiskelija/kurssi/kuukausi-2/kertaus",
+      en: "/student/course/month-2/review",
+    },
   },
 });
 

@@ -22,7 +22,8 @@ export type LessonHref =
   | "/student/course/month-2/food-shopping-everyday-needs"
   | "/student/course/month-2/directions-and-transport"
   | "/student/course/month-2/appointments-time-plans"
-  | "/student/course/month-2/health-feelings-help";
+  | "/student/course/month-2/health-feelings-help"
+  | "/student/course/month-2/review";
 
 export type LessonMeta = {
   id: string;
@@ -34,7 +35,8 @@ export type LessonMeta = {
 // Months whose curriculum is FULLY built. A month can show "Completed" on
 // the dashboard only if it is listed here AND the student has completed
 // all of its lessons. Add a month here only when its last lesson exists.
-export const COMPLETE_MONTHS: readonly number[] = [1];
+// Month 2: all 10 planned lessons are registered (lesson 10 = review).
+export const COMPLETE_MONTHS: readonly number[] = [1, 2];
 
 export function isMonthCurriculumComplete(month: number): boolean {
   return COMPLETE_MONTHS.includes(month);
@@ -155,6 +157,12 @@ export const LESSONS: LessonMeta[] = [
     month: 2,
     slug: "health-feelings-help",
     href: "/student/course/month-2/health-feelings-help",
+  },
+  {
+    id: "month-2-review",
+    month: 2,
+    slug: "review",
+    href: "/student/course/month-2/review",
   },
 ];
 
