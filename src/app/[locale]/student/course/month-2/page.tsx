@@ -1,14 +1,17 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Link, redirect } from "@/i18n/navigation";
 import { getSessionUserId } from "@/lib/auth";
-import { getLessonsForMonth } from "@/lessons/lessonRegistry";
+import {
+  getLessonsForMonth,
+  isMonthCurriculumComplete,
+} from "@/lessons/lessonRegistry";
 import StudentNav from "@/components/StudentNav";
 import MonthLessonList from "@/components/MonthLessonList";
 
 const MONTH = 2;
 
 // Month 2 page: lists the registered Month 2 lessons (from lessonRegistry)
-// and the planned topics. While no lessons are registered, an empty state
+// and the month's topics. While no lessons are registered, an empty state
 // is shown instead of the lesson list.
 export default async function Month2Page({
   params,
@@ -27,11 +30,16 @@ export default async function Month2Page({
   const t = await getTranslations("monthPage");
   const journey = await getTranslations("journey.steps");
   const lessonT = await getTranslations("lessonPage");
-  // Planned topics are read from the public Course page text, so both
-  // pages always show the same list. They are NOT implemented lessons.
+  // Topics are read from the public Course page text, so both pages always
+  // show the same list.
   const course = await getTranslations("coursePage.curriculum.months.m2");
   const topics = course("topics").split(",");
   const hasLessons = getLessonsForMonth(MONTH).length > 0;
+  // A fully built month (COMPLETE_MONTHS) shows "Topics covered";
+  // a month still being built shows "Planned topics".
+  const topicsHeading = isMonthCurriculumComplete(MONTH)
+    ? t("coveredTopicsHeading")
+    : t("plannedTopicsHeading");
 
   return (
     <>
@@ -72,7 +80,7 @@ export default async function Month2Page({
             </div>
           )}
 
-          <h2 className="text-[1.15rem] mb-4">{t("plannedTopicsHeading")}</h2>
+          <h2 className="text-[1.15rem] mb-4">{topicsHeading}</h2>
           <ul className="flex flex-wrap gap-2">
             {topics.map((topic) => (
               <li
