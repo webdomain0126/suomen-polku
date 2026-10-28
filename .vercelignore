@@ -1,0 +1,10 @@
+# Never upload local environment files (secrets) to Vercel.
+# Secrets must be set as Vercel environment variables instead.
+.env
+.env.*
+!.env.example
+
+# Dependencies and local build output (Vercel installs and builds itself)
+node_modules
+.next
+.vercel
