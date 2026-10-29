@@ -131,6 +131,14 @@ export const routing = defineRouting({
       fi: "/opiskelija/kurssi/kuukausi-2/kertaus",
       en: "/student/course/month-2/review",
     },
+    "/student/course/month-3": {
+      fi: "/opiskelija/kurssi/kuukausi-3",
+      en: "/student/course/month-3",
+    },
+    "/student/course/month-3/kpt-introduction": {
+      fi: "/opiskelija/kurssi/kuukausi-3/kpt-johdanto",
+      en: "/student/course/month-3/kpt-introduction",
+    },
   },
 });
 

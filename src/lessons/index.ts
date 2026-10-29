@@ -19,6 +19,7 @@ import { directionsAndTransportLesson } from "./directionsAndTransport";
 import { appointmentsTimePlansLesson } from "./appointmentsTimePlans";
 import { healthFeelingsHelpLesson } from "./healthFeelingsHelp";
 import { month2ReviewLesson } from "./month2Review";
+import { kptIntroductionLesson } from "./kptIntroduction";
 
 // Lesson content, looked up by month + slug. When a new lesson is added,
 // register its content here AND its stable ID in lessonRegistry.ts.
@@ -43,6 +44,7 @@ export const lessons: Lesson[] = [
   appointmentsTimePlansLesson,
   healthFeelingsHelpLesson,
   month2ReviewLesson,
+  kptIntroductionLesson,
 ];
 
 export function getLesson(month: number, slug: string): Lesson | undefined {

@@ -13,13 +13,16 @@ const statusStyles: Record<MonthStatus, string> = {
   completed: "bg-spruce-dark text-paper",
 };
 
-type MonthHref = "/student/course/month-1" | "/student/course/month-2";
+type MonthHref =
+  | "/student/course/month-1"
+  | "/student/course/month-2"
+  | "/student/course/month-3";
 
-// Months that have their own page. Month 1 has lessons; Month 2 currently
-// shows its planned topics, so its link says "View month" instead.
+// Months that have their own page.
 const MONTH_LINKS: Record<number, { href: MonthHref; label: "viewLessons" | "viewMonth" }> = {
   1: { href: "/student/course/month-1", label: "viewLessons" },
   2: { href: "/student/course/month-2", label: "viewLessons" },
+  3: { href: "/student/course/month-3", label: "viewLessons" },
 };
 
 export default function MonthCards({

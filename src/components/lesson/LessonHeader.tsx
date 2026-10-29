@@ -3,13 +3,17 @@ import { Link } from "@/i18n/navigation";
 import { Lesson } from "@/lessons/types";
 import TriText from "./TriText";
 
-type MonthHref = "/student/course/month-1" | "/student/course/month-2";
+type MonthHref =
+  | "/student/course/month-1"
+  | "/student/course/month-2"
+  | "/student/course/month-3";
 
 // Months that have a lesson-list page. The lesson's "Back to Month" link
 // goes to the page of the month the lesson belongs to.
 const MONTH_LINKS: Record<number, MonthHref> = {
   1: "/student/course/month-1",
   2: "/student/course/month-2",
+  3: "/student/course/month-3",
 };
 
 export default function LessonHeader({ lesson }: { lesson: Lesson }) {
