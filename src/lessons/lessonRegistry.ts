@@ -24,7 +24,8 @@ export type LessonHref =
   | "/student/course/month-2/appointments-time-plans"
   | "/student/course/month-2/health-feelings-help"
   | "/student/course/month-2/review"
-  | "/student/course/month-3/kpt-introduction";
+  | "/student/course/month-3/kpt-introduction"
+  | "/student/course/month-3/kpt-more-patterns";
 
 export type LessonMeta = {
   id: string;
@@ -65,6 +66,7 @@ export const LESSONS: LessonMeta[] = [
   { id: "month-2-health-feelings-help", month: 2, slug: "health-feelings-help", href: "/student/course/month-2/health-feelings-help" },
   { id: "month-2-review", month: 2, slug: "review", href: "/student/course/month-2/review" },
   { id: "month-3-kpt-introduction", month: 3, slug: "kpt-introduction", href: "/student/course/month-3/kpt-introduction" },
+  { id: "month-3-kpt-more-patterns", month: 3, slug: "kpt-more-patterns", href: "/student/course/month-3/kpt-more-patterns" },
 ];
 
 export function getLessonMeta(lessonId: string): LessonMeta | undefined {

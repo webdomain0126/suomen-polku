@@ -139,6 +139,10 @@ export const routing = defineRouting({
       fi: "/opiskelija/kurssi/kuukausi-3/kpt-johdanto",
       en: "/student/course/month-3/kpt-introduction",
     },
+    "/student/course/month-3/kpt-more-patterns": {
+      fi: "/opiskelija/kurssi/kuukausi-3/lisaa-astevaihtelua",
+      en: "/student/course/month-3/kpt-more-patterns",
+    },
   },
 });
 
